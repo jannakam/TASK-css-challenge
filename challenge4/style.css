@@ -27,13 +27,14 @@ body {
   position: absolute;
   top:0;
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 
 .descriptions {
   position: relative;
   color: white;
-  margin-left: 20px;
+  left: 5%;
+  top: 70%;
 }
 
 /*A gift from us!*/
@@ -54,6 +55,8 @@ body {
 
 .movie-title {
   position: inherit;
-  margin-top: 300px;
   color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Outfit";
 }
