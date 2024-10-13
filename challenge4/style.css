@@ -1,15 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 /* Add your code in each class */
 body {
+  background-color: purple;
 }
 .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
 }
+
 .movie-card {
+  position: relative;
 }
+
 .movie-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 0 0;
+  z-index: -1;
 }
+
 .movie-details-container {
+  align-items: left;
+  text-align: left;
+  position: absolute;
+  top:0;
+  height: 100%;
+  width: 100%
 }
+
 .descriptions {
+  position: relative;
+  color: white;
+  margin-left: 20px;
 }
 
 /*A gift from us!*/
@@ -27,5 +51,9 @@ body {
     rgba(0, 0, 0, 0) 100%
   );
 }
+
 .movie-title {
+  position: inherit;
+  margin-top: 300px;
+  color: white;
 }
