@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow-y: scroll;
 }
 .head {
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+  color: #D81E5B;
+  font-family: "Outfit";
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: #C6D8D3;
+  overflow: auto;
+  font-family: "Outfit";
 }
 
 /* This is a gift - Does not need editing */
